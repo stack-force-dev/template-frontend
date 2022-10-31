@@ -1,31 +1,17 @@
-# Ignore IDE config.
-.idea
-.vscode
+/node_modules
+/build
+/coverage
 
-# MacOS
+.eslintcache
+.firebase/
+
 .DS_Store
+.DS_STORE
 
-# Logs
-logs
-*.log
 npm-debug.log*
+npm-error.log*
 yarn-debug.log*
 yarn-error.log*
-lerna-debug.log*
 
-# Dependency directories
-node_modules/
-jspm_packages/
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# dotenv environment variables file
-.env
-
-# build files
-dist/
-build/
+logs
+*.log
